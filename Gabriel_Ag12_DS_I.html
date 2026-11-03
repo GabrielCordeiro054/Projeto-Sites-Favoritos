@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Estilização da página -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .site {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            box-shadow: 0 2px 8px #ccc;
+        }
+
+        .site img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+        }
+
+        a {
+            color: #1769aa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h2>Meus sites favoritos: Gabriel Silva Cordeiro</h2>
+
+    <div class="container">
+
+        <!-- Primeiro site: YouTube -->
+        <div class="site">
+            <h1>YouTube</h1>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=128" alt="Logo YouTube">
+            </a>
+            <p><a href="https://www.youtube.com/" target="_blank">Acessar YouTube</a></p>
+        </div>
+
+        <!-- Segundo site: Google -->
+        <div class="site">
+            <h1>Google</h1>
+            <a href="https://www.google.com/" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=google.com&sz=128" alt="Logo Google">
+            </a>
+            <p><a href="https://www.google.com/" target="_blank">Acessar Google</a></p>
+        </div>
+
+        <!-- Terceiro site: Netflix -->
+        <div class="site">
+            <h1>Netflix</h1>
+            <a href="https://www.netflix.com/" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=netflix.com&sz=128" alt="Logo Netflix">
+            </a>
+            <p><a href="https://www.netflix.com/" target="_blank">Acessar Netflix</a></p>
+        </div>
+
+        <!-- Quarto site: Prime Video -->
+        <div class="site">
+            <h1>Prime Video</h1>
+            <a href="https://www.primevideo.com/" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=primevideo.com&sz=128" alt="Logo Prime Video">
+            </a>
+            <p><a href="https://www.primevideo.com/" target="_blank">Acessar Prime Video</a></p>
+        </div>
+
+        <!-- Quinto site: Max -->
+        <div class="site">
+            <h1>Max</h1>
+            <a href="https://www.max.com/" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=max.com&sz=128" alt="Logo Max">
+            </a>
+            <p><a href="https://www.max.com/" target="_blank">Acessar Max</a></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
